@@ -14,9 +14,9 @@ dotenv.config({
     debug: true,
     encoding: 'utf8'
 })
-/*const email_to = process.env.EMAIL_TO
-const email_user = process.env.EMAIL_USER
-const email_pass = process.env.EMAIL_PASS*/
+const email_to = process.env.email_to
+const email_user = process.env.email_user
+const email_pass = process.env.email_pass
 
 const host = ("RENDER" in process.env) ? `0.0.0.0` : `localhost`;
 
